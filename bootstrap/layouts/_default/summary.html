@@ -1,0 +1,8 @@
+<a href="{{ .Permalink }}" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">{{ .Title }}</h5>
+        <small class="text-muted">{{ i18n "publishdate" . }}</small>
+    </div>
+    <p class="mb-1">{{ if isset .Params "summary" }}{{ .Params.Summary }}{{ else }}{{ .Summary }}{{ end }}</p>
+    <small class="text-muted">{{ .Params.categories }}</small>
+</a>

@@ -1,0 +1,13 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ "/" | relURL }}">首页</a></li>
+        <li class="breadcrumb-item"><a href="{{ "/categories/" | relURL }}">分类</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+    </ol>
+</nav>
+<div class="card">
+    <div class="card-header">
+        {{ .Title }}
+    </div>
+    <div class="card-body">
+        <h5 class="card-title text-center">{{ .Title }}</h5>

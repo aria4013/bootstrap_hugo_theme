@@ -1,0 +1,5 @@
+baseURL = "http://hugo.denongnongye.com"
+languageCode = "zh-cn"
+title = "HUGO博客"
+theme = "Bootstrap"
+defaultContentLanguage = "cn"

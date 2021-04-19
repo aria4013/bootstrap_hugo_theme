@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<main>
+	<br>
+	<div class="container">
+		{{ partial "single/title.html" . }}
+		{{ partial "single/post-info.html" . }}
+
+		{{ partial "single/header.html" . }}
+
+		{{ .Content }}
+
+		{{ partial "single/footer.html" . }}
+	</div></div></div>
+	<br>
+	<nav aria-label="Page navigation example">
+            <ul class="pagination pagination-lg justify-content-center">
+				{{ if .PrevPage }}
+				<li class="page-item">
+						<a class="page-link" href="{{ .PrevPage.RelPermalink }}">上一篇</a>
+				</li>
+				{{ end }}
+				<li class="page-item"><a class="page-link" href="#">TOP</a></li>
+				{{ if .NextPage }}
+    			<li class="page-item">
+      				<a class="page-link" href="{{ .NextPage.RelPermalink }}">下一篇</a>
+				</li>
+				{{ end }}
+            </ul>
+        </nav>
+</main>
+
+{{ end }}

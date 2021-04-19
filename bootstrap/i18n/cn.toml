@@ -1,0 +1,29 @@
+[index]
+other = "首页"
+
+[about]
+other = "相关"
+
+[linux]
+other = "Linux笔记"
+
+[windows]
+other = "Windows笔记"
+
+[macos]
+other = "MacOS笔记"
+
+[other]
+other = "Other笔记"
+
+[writtenBy]
+other = "作者HDMI"
+
+[on]
+other = "发布日期"
+
+[generator]
+other = "HDMI的学习笔记"
+
+[publishdate]
+other = "{{ .PublishDate.Format \"2006年1月2日\" }}"

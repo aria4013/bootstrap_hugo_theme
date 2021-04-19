@@ -1,0 +1,18 @@
+name = "hdmi"
+license = "MIT"
+licenselink = "https://github.com/EmielH/tale-hugo/blob/master/LICENSE"
+description = "A port of the Tale theme for Hugo. Tale is a minimal Jekyll theme curated for storytellers."
+homepage = "https://hdmi.gitee.io"
+tags = ["minimal", "clean", "responsive", "simple", "personal", "blog", "starter", "light", "typography"]
+features = ["pagination"]
+min_version = "0.10"
+
+[author]
+  name = "HDMI"
+  homepage = "https://hdmi.gitee.io"
+
+# If porting an existing theme
+[original]
+  name = "Chester How"
+  homepage = "https://github.com/chesterhow/tale"
+  repo = "https://github.com/chesterhow/tale"
